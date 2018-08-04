@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+
+.item{
+    padding: 2px;
+    font-family: sans-serif;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
