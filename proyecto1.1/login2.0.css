@@ -1,18 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .todo{
-    display: grid;
     width: 100vw;
     height: 100vh;
-    grid-template-columns: 3fr 1fr;
-}
-
-.home{
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0;
 }
 
-.viejo{
-    
-    width: 100%;
-    height: 100%;
+.img{
+
+    background-size: cover;
+    background-image: url(http://www.bellasfondos.eu/pics/2016/0105/1/orig_192315.jpg);
+}
+
+.home {
+    margin: 10px;
+    background-color: rgba(231, 234, 237, 0.474);
+    width: 300px;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    justify-self: right;
+    align-items: center;
+}
+
+.home *{
+    margin: 10px;
+}
+
+.home input{
+    border-radius: 15%;
 }

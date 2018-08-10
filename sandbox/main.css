@@ -1,0 +1,40 @@
+
+.container{
+    margin: auto;
+    width: 75%;
+    border: 1px solid grey;
+}
+
+.item1{
+    background-color: #62da6269;
+}
+
+.item1 div{
+    display: inline-block;
+    padding: 0 70px;
+    margin: 5px;
+}
+
+.search{
+    width: 300px;
+}
+
+.item2 div{
+    display:inline-block;
+    padding: 0 30px;
+
+}
+
+.dropdown{
+    margin-right: 120px;   
+}
+
+.right {
+    margin-left: 200px;
+}
+
+.item3{
+    background-image: url(https://k43.kn3.net/D6D7AFD37.jpg);
+    height: 1000px;
+    background-size: contain;
+}
